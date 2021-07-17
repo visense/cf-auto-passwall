@@ -3,13 +3,11 @@
 
 用途：用于自动筛选 CF IP，并自动替换优选 IP 为 PassWall 的节点地址
 
-网站： www.v2rayssr.com （已开启禁止大陆IP访问）
+网站： www.maskviral.com （已开启禁止大陆IP访问）
 
-YouTube频道：波仔分享
+YouTube频道：MaskviralTV
 
 本脚本源于 GitHub：Lbingyi 以及 Paniy
-
-本教程视频演示地址：https://youtu.be/WzRHi9f9QKg
 
 使用说明：加在 openwrt 上系统 计划任务里 添加定时运行，如 0 4 * * 2,4,6 bash /root/cf-auto-passwall.sh > /dev/null
 
@@ -29,5 +27,4 @@ YouTube频道：波仔分享
 
 2、请更改 421 行 的 xxxxxxxxxx 字符串，为你自己 PassWall 的节点值
 
-3、不会请看博客 https://www.v2rayssr.com/cf-auto-passwall.html
-
+3、不会请看博客 https://www.maskviral.com/cloudfare-auto-openwrt-passwall.html
